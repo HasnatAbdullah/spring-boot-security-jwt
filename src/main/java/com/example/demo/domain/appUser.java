@@ -8,6 +8,7 @@ import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.Collection;
 
+import static javax.persistence.FetchType.EAGER;
 import static javax.persistence.GenerationType.AUTO;
 
 @Entity
@@ -21,7 +22,7 @@ public class appUser {
     private String name;
     private String username;
     private String password;
-    @ManyToMany(fetch = FetchType.EAGER)
+    @ManyToMany(fetch = EAGER)
     private Collection<Role> roles = new ArrayList<>();
 
 
