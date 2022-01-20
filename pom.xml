@@ -13,7 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-boot-security-jwt</name>
     <description>Spring Boot and Spring Security with JWT including Access and Refresh Tokens 🔑</description>
-    <properties>
+    <properties>e
         <java.version>1.8</java.version>
     </properties>
     <dependencies>
